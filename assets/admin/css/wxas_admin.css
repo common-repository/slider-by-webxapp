@@ -1,0 +1,143 @@
+.wxas_admin_slider_item{
+    max-height: 55px;
+    max-width: 75px;
+    display: inline-block;
+}
+.wxas_admin_item{
+    border: 1px solid #cecece;
+    border-radius:1px ;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+    min-height: 70px;
+}
+.wxas_image_settings{
+    float: right;
+    display: inline-block;
+}
+.wxas_image_settings span{
+    box-sizing: border-box;
+    border: 1px solid;
+    font-size: 25px;
+    cursor: pointer;
+    width: 28px;
+    height: 27px;
+    border-radius: 2px;
+    color: #8e8e8e;
+}
+.wxas_shortcode_editor .wxas_overlay{
+    background: #000;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100050;
+    width: 100%;
+    height: 100%;
+}
+.wxas_shortcode_editor {
+    display: inline-block;
+}
+.wxas_shortcode_editor iframe{
+    width: 400px;
+    height: 200px;
+    background-color: #fff;
+}
+.wxas_shortcode_editor .wxas_window{
+    top: calc(30% - 100px);
+    left: calc(50% - 200px);
+    position: fixed;
+    background-color: #fff;
+    z-index: 100050;
+
+}
+.wxas_settings_input{
+    margin-top: 15px;
+}
+.wxas_settings_input label{
+    min-width: 105px;
+    display: inline-block;
+}
+.wxas_edit_media{
+    display: inline-block;
+    text-decoration: none;
+    color: #8e8e8e;
+}
+.wxas_edit_item:hover{
+    color: #0eb5d6 !important;
+}
+.wxas_delete_item:hover{
+    color: #0eb5d6 !important;
+}
+.wxas_add_item{
+    width: 95px;
+    height: 95px;
+    margin: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.wxas_admin_slider_post{
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+    background-image: url(../../images/wp-post_logo.png);
+    background-repeat: no-repeat;
+}
+.wxas_add_item span{
+    display: block;
+    margin: 5px auto;
+}
+.wxas_input_block{
+    padding: 5px;
+}
+.wxas_input_block label{
+    min-width: 195px;
+    display: inline-block;
+}
+.wxas_media_title{
+    margin-left: 15px;
+}
+
+
+.wxas_admin_popup{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    z-index: 99998;
+}
+.wxas_close_admin_popup{
+    right: 10px;
+    top: 0;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+}
+.wxas_slide_item_content{
+    width: 50%;
+    margin: 50px auto 0 auto;
+    background-color: #ffffff;
+    padding: 5px 20px 50px 20px;
+    position: relative;
+}
+.wxas_add_el_content{
+    float: right;
+    margin-top: 10px !important;
+}
+.wxas_admin_popup_overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.57);
+}
+.wxas_hide_admin_popup{
+    display: none !important;
+}
+.wxas_slide_element_content{
+    display: none !important;
+}
